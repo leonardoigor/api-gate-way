@@ -15,6 +15,7 @@ namespace ApiGateWay
             Configuration = configuration;
         }
 
+        [Obsolete]
         public void ConfigureServices(IServiceCollection services)
         {
             // services.AddControllers();
