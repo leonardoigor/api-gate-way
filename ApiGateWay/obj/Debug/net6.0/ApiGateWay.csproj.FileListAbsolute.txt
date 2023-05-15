@@ -1,5 +1,8 @@
 D:\Develop\projetos\c#\api-gate-way\ApiGateWay\bin\Debug\net6.0\appsettings.Development.json
 D:\Develop\projetos\c#\api-gate-way\ApiGateWay\bin\Debug\net6.0\appsettings.json
+D:\Develop\projetos\c#\api-gate-way\ApiGateWay\bin\Debug\net6.0\configuration.Development.json
+D:\Develop\projetos\c#\api-gate-way\ApiGateWay\bin\Debug\net6.0\configuration.json
+D:\Develop\projetos\c#\api-gate-way\ApiGateWay\bin\Debug\net6.0\json.json
 D:\Develop\projetos\c#\api-gate-way\ApiGateWay\bin\Debug\net6.0\ApiGateWay.exe
 D:\Develop\projetos\c#\api-gate-way\ApiGateWay\bin\Debug\net6.0\ApiGateWay.deps.json
 D:\Develop\projetos\c#\api-gate-way\ApiGateWay\bin\Debug\net6.0\ApiGateWay.runtimeconfig.json
@@ -33,4 +36,3 @@ D:\Develop\projetos\c#\api-gate-way\ApiGateWay\obj\Debug\net6.0\refint\ApiGateWa
 D:\Develop\projetos\c#\api-gate-way\ApiGateWay\obj\Debug\net6.0\ApiGateWay.pdb
 D:\Develop\projetos\c#\api-gate-way\ApiGateWay\obj\Debug\net6.0\ApiGateWay.genruntimeconfig.cache
 D:\Develop\projetos\c#\api-gate-way\ApiGateWay\obj\Debug\net6.0\ref\ApiGateWay.dll
-D:\Develop\projetos\c#\api-gate-way\ApiGateWay\bin\Debug\net6.0\configuration.Development.json

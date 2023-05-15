@@ -1,21 +1,41 @@
-﻿{
-    "ReRouotes": [
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/{path}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
         {
-            "DownstreamPathTemplate": "/{everything}",
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "localhost",
-                    "Port": 5000
-                }
-            ],
-            "UpstreamPathTemplate": "/api/{everything}",
-            "UpstreamHttpMethod": [
-                "Get",
-                "Post",
-                "Put",
-                "Delete"
-            ]
+          "Host": "localhost",
+          "Port": 5011
         }
-    ]
+      ],
+      "UpstreamPathTemplate": "/gateway/api1/{path}",
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/{path}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5189
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/api2/{path}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post",
+        "Put",
+        "Delete"
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5132"
+  }
 }

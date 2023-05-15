@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace ApiGateWay.Controllers
+namespace ApiTest_1.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -23,11 +23,17 @@ namespace ApiGateWay.Controllers
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
+                ApiName = "Api 1",
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = Random.Shared.Next(-20, 55),
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+        [HttpGet("t", Name = "test")]
+        public String GetTest()
+        {
+            return "test";
         }
     }
 }

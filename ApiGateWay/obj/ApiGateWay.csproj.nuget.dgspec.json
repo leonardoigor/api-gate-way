@@ -42,7 +42,7 @@
           "dependencies": {
             "Ocelot": {
               "target": "Package",
-              "version": "[18.0.0, )"
+              "version": "[15.0.6, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

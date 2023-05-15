@@ -5,6 +5,10 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateWay", "ApiGateWay\ApiGateWay.csproj", "{5CD83DE9-720D-4567-8618-8E6D4623C37D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTest-1", "ApiTest-1\ApiTest-1.csproj", "{9180611D-9A1C-4DFF-8EFE-E0EBED6D74E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTest-2", "ApiTest-2\ApiTest-2.csproj", "{E5FEAE01-FCA2-4FE0-988C-F84DD0C15C6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{5CD83DE9-720D-4567-8618-8E6D4623C37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CD83DE9-720D-4567-8618-8E6D4623C37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CD83DE9-720D-4567-8618-8E6D4623C37D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9180611D-9A1C-4DFF-8EFE-E0EBED6D74E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9180611D-9A1C-4DFF-8EFE-E0EBED6D74E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9180611D-9A1C-4DFF-8EFE-E0EBED6D74E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9180611D-9A1C-4DFF-8EFE-E0EBED6D74E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5FEAE01-FCA2-4FE0-988C-F84DD0C15C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5FEAE01-FCA2-4FE0-988C-F84DD0C15C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5FEAE01-FCA2-4FE0-988C-F84DD0C15C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5FEAE01-FCA2-4FE0-988C-F84DD0C15C6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
