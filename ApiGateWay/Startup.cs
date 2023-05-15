@@ -1,6 +1,7 @@
-using Microsoft.OpenApi.Models;
+
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
+
 
 namespace ApiGateWay
 {
@@ -21,23 +22,27 @@ namespace ApiGateWay
 
             // services.AddEndpointsApiExplorer();
 
-            // services.AddSwaggerGen(c =>
-            // {
-            //     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Your API", Version = "v1" });
-            // });
+            services.AddSwaggerForOcelot(Configuration);
+            services.AddMvc()
+            .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0);
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            // app.UsePathBase("/gateway");
             if (env.IsDevelopment())
             {
-                // app.UseSwagger();
-                // app.UseSwaggerUI(c =>
-                // {
-                //     c.SwaggerEndpoint("/swagger/v1/swagger.json", "Your API v1");
-                // });
                 app.UseDeveloperExceptionPage();
             }
+            app.UseStaticFiles();
+
+            // app.UseSwagger();
+            app.UseSwaggerForOcelotUI(opt =>
+            {
+
+                opt.PathToSwaggerGenerator = "/swagger/docs";
+            });
+
 
             app.UseRouting();
             app.UseAuthorization();

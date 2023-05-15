@@ -13,16 +13,6 @@ internal class Program
     {
 
         var builder = Host.CreateDefaultBuilder(args);
-        // build.ConfigureAppConfiguration((hostingContext, config) =>
-        //   {
-        //       config
-        //           .SetBasePath(hostingContext.HostingEnvironment.ContentRootPath)
-        //           .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
-        //           .AddJsonFile($"appsettings.{hostingContext.HostingEnvironment.EnvironmentName}.json", optional: true, reloadOnChange: true)
-        //           .AddJsonFile($"configuration.json")
-        //           .AddJsonFile($"configuration.{hostingContext.HostingEnvironment.EnvironmentName}.json")
-        //           .AddEnvironmentVariables();
-        //   });
         builder.ConfigureServices(s => s.AddSingleton(builder));
         builder.ConfigureAppConfiguration((hostingContext, config) =>
           {
@@ -30,8 +20,10 @@ internal class Program
                   .SetBasePath(hostingContext.HostingEnvironment.ContentRootPath)
                   .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
                   .AddJsonFile($"appsettings.{hostingContext.HostingEnvironment.EnvironmentName}.json", optional: true, reloadOnChange: true)
-                  .AddJsonFile($"configuration.json")
-                  .AddJsonFile($"configuration.{hostingContext.HostingEnvironment.EnvironmentName}.json")
+                  //   .AddJsonFile($"configuration.json")
+                  //   .AddJsonFile($"configuration.{hostingContext.HostingEnvironment.EnvironmentName}.json")
+                  .AddJsonFile($"ocelot.json")
+                 //   .AddJsonFile($"ocelot.{hostingContext.HostingEnvironment.EnvironmentName}.json")
                  .AddJsonFile(Path.Combine(hostingContext.HostingEnvironment.ContentRootPath, "configuration.json"))
                  .AddEnvironmentVariables();
           });

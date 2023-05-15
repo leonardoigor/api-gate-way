@@ -40,9 +40,13 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MMLib.SwaggerForOcelot": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
             "Ocelot": {
               "target": "Package",
-              "version": "[15.0.6, )"
+              "version": "[18.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
