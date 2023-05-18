@@ -1,0 +1,12 @@
+D:\Develop\projetos\c#\api-gate-way\JwtAuthenticationManager\bin\Debug\net6.0\JwtAuthenticationManager.deps.json
+D:\Develop\projetos\c#\api-gate-way\JwtAuthenticationManager\bin\Debug\net6.0\JwtAuthenticationManager.dll
+D:\Develop\projetos\c#\api-gate-way\JwtAuthenticationManager\bin\Debug\net6.0\JwtAuthenticationManager.pdb
+D:\Develop\projetos\c#\api-gate-way\JwtAuthenticationManager\obj\Debug\net6.0\JwtAuthenticationManager.csproj.AssemblyReference.cache
+D:\Develop\projetos\c#\api-gate-way\JwtAuthenticationManager\obj\Debug\net6.0\JwtAuthenticationManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\Develop\projetos\c#\api-gate-way\JwtAuthenticationManager\obj\Debug\net6.0\JwtAuthenticationManager.AssemblyInfoInputs.cache
+D:\Develop\projetos\c#\api-gate-way\JwtAuthenticationManager\obj\Debug\net6.0\JwtAuthenticationManager.AssemblyInfo.cs
+D:\Develop\projetos\c#\api-gate-way\JwtAuthenticationManager\obj\Debug\net6.0\JwtAuthenticationManager.csproj.CoreCompileInputs.cache
+D:\Develop\projetos\c#\api-gate-way\JwtAuthenticationManager\obj\Debug\net6.0\JwtAuthenticationManager.dll
+D:\Develop\projetos\c#\api-gate-way\JwtAuthenticationManager\obj\Debug\net6.0\refint\JwtAuthenticationManager.dll
+D:\Develop\projetos\c#\api-gate-way\JwtAuthenticationManager\obj\Debug\net6.0\JwtAuthenticationManager.pdb
+D:\Develop\projetos\c#\api-gate-way\JwtAuthenticationManager\obj\Debug\net6.0\ref\JwtAuthenticationManager.dll

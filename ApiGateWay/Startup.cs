@@ -1,4 +1,5 @@
 
+using JwtAuthenticationManager;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 
@@ -20,6 +21,7 @@ namespace ApiGateWay
         {
             // services.AddControllers();
             services.AddOcelot(Configuration);
+            services.AddCustomJwtAuthentication();
 
             // services.AddEndpointsApiExplorer();
 
